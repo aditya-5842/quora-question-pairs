@@ -72,7 +72,7 @@ tfidf_train_q1, tfidf_train_q2 = tfidf1.transform(tfidf_x_train['question1']), t
 tfidf_cv_q1, tfidf_cv_q2 = tfidf1.transform(tfidf_cv['question1']), tfidf1.transform(tfidf_cv['question2'])
 tfidf_test_q1, tfidf_test_q2 = tfidf1.transform(tfidf_x_test['question1']), tfidf1.transform(tfidf_x_test['question2'])
 # for TFIDF merging
-tfidf_x_train = hstack((tfidf_train_q1, tfidf_train_q1, tfidf_x_train.iloc[:,3:])) #tfidf_y_train
+tfidf_x_train = hstack((tfidf_train_q1, tfidf_train_q2, tfidf_x_train.iloc[:,3:])) #tfidf_y_train
 tfidf_x_cv = hstack((tfidf_cv_q1, tfidf_cv_q2, tfidf_cv.iloc[:,3:]))              #tfidf_y_cv
 tfidf_x_test = hstack((tfidf_test_q1, tfidf_test_q2, tfidf_x_test.iloc[:,3:]))    #tfidf_y_test/y_test
 
