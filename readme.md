@@ -51,15 +51,15 @@ alt="Performance Summary"
 style="float: left; margin-right: 10px;" />
 
 # Requirements
-python == 3.6
-flask == 1.1.1
-gunicorn == 20.0.4
-sklearn == 0.22.1
-numpy == 1.16.4
-pandas == 0.24.2
-lightgbm == 2.2.3
-pickle == 4.0
-scipy == 1.2.0
+* python == 3.6
+* flask == 1.1.1
+* gunicorn == 20.0.4
+* sklearn == 0.22.1
+* numpy == 1.16.4
+* pandas == 0.24.2
+* lightgbm == 2.2.3
+* pickle == 4.0
+* scipy == 1.2.0
 
 # File Details
 <img src="./Images/tree structure of files.png"  alt="Tree Structure of Files">
