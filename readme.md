@@ -23,6 +23,7 @@ This plot show the class distribution of dataset. From above plot it can be conc
 ## 3.2 Unique v/s Repeated Question
 <img src="./Images/unique_vs_repeated_questions.png"  
 alt="Unique vs Repeated-Questions"/>
+
 Above plot shows that the number of unique questions is almost five time the number of repeated question.
 
 ## 3.3 Desinged Features
