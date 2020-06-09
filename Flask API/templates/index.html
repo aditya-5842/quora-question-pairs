@@ -1,0 +1,33 @@
+<html>
+
+    <head>
+        <title>Question Piar Similarity</title>
+    </head>
+
+    <body style="background-color: powderblue;">
+        <h1>
+            <center>Quora Question Pair Similarity</center>
+        </h1>
+
+        <div>
+            <form action="/output/" method="POST">
+                <center>
+                    <label for="q1">Question-1: </label>
+                    <textarea name="q1" rows="2" cols="30"></textarea>
+                    <br>
+                    <label for="q2">Question-2: </label>
+                    <textarea name="q2" rows="2" cols="30"></textarea>
+                    <br>
+                    <label for="probabiliy">Probabiliy: </label>
+                    <select id="probabiliy" name="probabiliy">
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Predict">
+                </center>
+            </form>
+        </div>
+    </body>
+
+</html>

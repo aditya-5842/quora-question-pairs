@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Result</title>
+    </head>
+
+    <body style="background-color: powderblue;">
+        <center>
+            <h1>Output</h1>
+            <table border="1">
+                {% for key, value in result.items()%}
+                <tr>
+                    <th> {{key}} </th>
+                    <td style="text-align:center"> {{value}} </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </center>
+    </body>
+
+</html>
