@@ -1,5 +1,7 @@
 <h1> <center>Quora Question-Piar Similarity</center></h1>
 
+**NOTE:** [Link](https://question-pair-similarity.herokuapp.com/) of the deployed model.
+
 # 1. Problem Statement
 - Identify which questions asked on Quora are duplicates of questions that have already been asked.
 - This could be useful to instantly provide answers to questions that have already been answered.
@@ -54,18 +56,22 @@ style="float: left; margin-right: 10px;" />
 * python == 3.6
 * flask == 1.1.1
 * gunicorn == 20.0.4
-* sklearn == 0.22.1
+* scikit-learn == 0.22.1
 * numpy == 1.16.4
 * pandas == 0.24.2
 * lightgbm == 2.2.3
 * pickle == 4.0
 * scipy == 1.2.0
+* nltk == 3.4.3
+* fuzzywuzzy == 0.17.0
+* distance == 0.1.3
 
 # File Details
 <img src="./Images/tree structure of files.png"  alt="Tree Structure of Files">
 
 ## Flask API (folder)
 It contains all required file to build a **UI**. This folder is used to deploy the model on **Heroku**.
+[Link](https://question-pair-similarity.herokuapp.com/) of the deployed model.
 
 ## *.ipynb* Extension
 With this extension, files are IPython Notebooks. File name *Quora_EDA.ipynb* has exploratory data anaysis. In exploartory data analysis various distribution plots, barplots, t-SNE plots etc are plotted. In this file some additional features are designed. In *quora_vectorizing_and_models.ipynb* file first TF-IDF and TFIDF-W2V vectorization are done then final TF-IDF and TFIDF-W2V features are created by merging vectorized features with designed features in *Quora_EDA.ipynb* file. Logistic regression, linear SVM and GBDT (with LightGBM) machine learning models are applied. For each model hyper-parameter tunning has been done. At the end all model's log-loss values are compared.
