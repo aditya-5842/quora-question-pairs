@@ -5,4 +5,4 @@ numpy==1.16.4
 pandas==0.24.2
 lightgbm==2.2.3
 pickle==4.0
-scipy==1.2.0
+scipy==1.10.0
